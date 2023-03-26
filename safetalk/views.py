@@ -1,6 +1,6 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import JsonResponse
 
 
-def index(response):
-    return HttpResponse("Hello from jose")
+def index(request):
+    return JsonResponse({"message": "Hello from jose"})

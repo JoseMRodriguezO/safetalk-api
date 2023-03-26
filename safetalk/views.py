@@ -1,10 +1,13 @@
 from django.shortcuts import render
 from django.http import JsonResponse
-from django.views.decorators.csrf import csrf_exempt
 from .models import Activity, Resource
 
 
-@csrf_exempt
+def my_view(request):
+    my_string = "Hello World!"
+    return JsonResponse(my_string, safe=False)
+
+
 def activity_list(request):
     if request.method == 'GET':
         activities = Activity.objects.all()
@@ -15,7 +18,6 @@ def activity_list(request):
         pass
 
 
-@csrf_exempt
 def resource_list(request):
     if request.method == 'GET':
         resources = Resource.objects.all()

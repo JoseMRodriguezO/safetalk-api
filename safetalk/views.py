@@ -10,3 +10,13 @@ def my_view(request):
         response = JsonResponse(data)
         print(response.content)
         return response
+
+
+def resource_list(request):
+    resources = Resource.objects.all()
+    data = {'resources': list(resources.values())}
+    response = JsonResponse(data)
+    print(response.content)
+    print("Resource list view called")
+
+    return response

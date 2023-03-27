@@ -1,0 +1,59 @@
+{
+  "model": "safetalk.activity",
+  "activities": [
+      {
+          "title": "Practice Mindfulness",
+          "description": "Mindfulness is a practice that involves paying attention to the present moment without judgment. It can help reduce stress and increase well-being.",
+          "steps": [
+              "Find a quiet and comfortable place to sit or lie down.",
+              "Take a few deep breaths and focus on your breath.",
+              "Notice any thoughts, feelings, or sensations that arise, without judgment.",
+              "Gently bring your attention back to your breath whenever your mind starts to wander.",
+              "Practice for 5-10 minutes a day, gradually increasing the time as you become more comfortable with the practice."
+          ]
+      },
+      {
+          "title": "Engage in Physical Activity",
+          "description": "Regular exercise can help improve mood, reduce stress and anxiety, and increase self-esteem.",
+          "steps": [
+              "Choose an activity that you enjoy, such as walking, jogging, cycling, swimming, or dancing.",
+              "Set a realistic goal, such as 30 minutes of moderate exercise most days of the week.",
+              "Start slowly and gradually increase the intensity and duration of your activity.",
+              "Find a friend or family member to exercise with for motivation and support.",
+              "Celebrate your progress and accomplishments along the way."
+          ]
+      }
+  ],
+  
+  "resources": [
+      {
+          "title": "National Alliance on Mental Illness",
+          "description": "NAMI provides education, support, and advocacy for individuals and families affected by mental illness.",
+          "url": "https://www.nami.org/"
+      },
+      {
+          "title": "Mental Health America",
+          "description": "Mental Health America provides information, resources, and support for individuals with mental health concerns.",
+          "url": "https://www.mhanational.org/"
+      },
+      {
+          "title": "Crisis Text Line",
+          "description": "Crisis Text Line provides free, 24/7 crisis support via text message.",
+          "url": "https://www.crisistextline.org/"
+      },
+      {
+          "title": "National Suicide Prevention Lifeline",
+          "description": "The National Suicide Prevention Lifeline provides free, confidential support to individuals in crisis.",
+          "url": "https://suicidepreventionlifeline.org/"
+      },
+      {
+          "title": "Therapy for Black Girls",
+          "description": "Therapy for Black Girls provides resources and support for Black women seeking therapy and mental health services.",
+          "url": "https://therapyforblackgirls.com/"
+      }
+  ]
+}
+
+
+
+

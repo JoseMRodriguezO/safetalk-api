@@ -21,4 +21,5 @@ urlpatterns = [
 
     path('activities/', include("safetalk.urls")),
 
+
 ]
